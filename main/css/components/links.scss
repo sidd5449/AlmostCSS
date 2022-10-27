@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+    transition: all ease-in-out 0.4s;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.primary_link{
+    color: var(--primary-color);
+}
+.secondary_link{
+    color: var(--secondary-color);
+}
+.cta_link{
+    color: var(--cta-color);
+}
+.warning_link{
+    color: var(--warning-color);
+}
+.alert_link{
+    color: var(--alert-color);
+}
+.success_link{
+    color: var(--success-color);
+}

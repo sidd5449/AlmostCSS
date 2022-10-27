@@ -10,7 +10,7 @@ const rename = require('gulp-rename');
 // create task
 function buildStyles(){
     return src('main/css/**/*.scss')
-      // .pipe(sass().on('error', sass.logError))
+      .pipe(sass().on('error', sass.logError))
         .pipe(minifyCSS())
         // .pipe(rename('style.min.css'))
         .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9'))
