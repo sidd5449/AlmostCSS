@@ -1,26 +1,28 @@
 a{
     text-decoration: none;
-    transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.2s;
+    padding-bottom: 0.5vh;
+    border-bottom: 2px solid transparent;
 
     &:hover{
-        text-decoration: underline;
+        border-bottom: 2px solid;
     }
 }
 .primary_link{
-    color: var(--primary-color);
+    color: var(--primary-color-1);
 }
 .secondary_link{
-    color: var(--secondary-color);
+    color: var(--secondary-color-1);
 }
 .cta_link{
-    color: var(--cta-color);
+    color: var(--cta-color-1);
 }
 .warning_link{
-    color: var(--warning-color);
+    color: var(--warning-color-1);
 }
 .alert_link{
-    color: var(--alert-color);
+    color: var(--alert-color-1);
 }
 .success_link{
-    color: var(--success-color);
+    color: var(--success-color-1);
 }

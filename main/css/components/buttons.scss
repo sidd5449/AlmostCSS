@@ -7,14 +7,19 @@ button{
     border: none;
     box-shadow: 2px 2px 15px rgb(154, 154, 154);
     color: #fff;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+    &:hover{
+        transform: scale(1.05);
+    }
 
 }
 
 .primary_btn{
-    background-color: var(--primary-color);
+    background:linear-gradient(45deg, var(--primary-color-1), var(--primary-color-2));
 }
 .secondary_btn{
-    background-color: var(--secondary-color);
+    background: linear-gradient(45deg, var(--secondary-color-1), var(--secondary-color-2));
 
 }
 .outline_btn{
@@ -23,11 +28,11 @@ button{
     color: #000;
 }
 .success_btn{
-    background-color: var(--success-color);
+    background: linear-gradient(45deg, var(--success-color-1), var(--success-color-2));
 }
 .alert_btn{
-    background-color: var(--alert-color);
+    background: linear-gradient(45deg, var(--alert-color-1), var(--alert-color-2));
 }
 .warning_btn{
-    background-color: var(--warning-color);
+    background: linear-gradient(45deg, var(--warning-color-1), var(--warning-color-2));
 }
