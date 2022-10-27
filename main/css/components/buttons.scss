@@ -1,6 +1,33 @@
 button{
-    padding: 5vh 5vw;
+    padding: 2vh 2vw;
     display: flex;
     align-items: center;
     place-content: center;
+    border-radius: 1.5vh;
+    border: none;
+    box-shadow: 2px 2px 15px rgb(154, 154, 154);
+    color: #fff;
+
+}
+
+.primary_btn{
+    background-color: var(--primary-color);
+}
+.secondary_btn{
+    background-color: var(--secondary-color);
+
+}
+.outline_btn{
+    background-color: #fff;
+    border: 2px solid var(--tertiary-color);
+    color: #000;
+}
+.success_btn{
+    background-color: var(--success-color);
+}
+.alert_btn{
+    background-color: var(--alert-color);
+}
+.warning_btn{
+    background-color: var(--warning-color);
 }

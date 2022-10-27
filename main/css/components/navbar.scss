@@ -1,0 +1,10 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vw;
+    align-items: center;
+    background-color: #fff;
+}
+.nav_dark{
+    background-color: var(--nav-dark);
+}
