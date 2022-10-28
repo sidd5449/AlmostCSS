@@ -1,38 +1,56 @@
-button{
-    padding: 2vh 2vw;
-    display: flex;
-    align-items: center;
-    place-content: center;
-    border-radius: 1.5vh;
-    border: none;
-    box-shadow: 2px 2px 15px rgb(154, 154, 154);
-    color: #fff;
-    cursor: pointer;
-    transition: all ease-in-out 0.2s;
-    &:hover{
-        transform: scale(1.05);
-    }
-
+button {
+  padding: 2vh 2vw;
+  display: flex;
+  align-items: center;
+  place-content: center;
+  border-radius: 1.5vh;
+  border: none;
+  //   box-shadow: 2px 2px 15px rgb(154, 154, 154);
+  color: #fff;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
-.primary_btn{
-    background:linear-gradient(45deg, var(--primary-color-1), var(--primary-color-2));
+.primary_btn {
+  background: linear-gradient(
+    45deg,
+    var(--primary-color-1),
+    var(--primary-color-2)
+  );
 }
-.secondary_btn{
-    background: linear-gradient(45deg, var(--secondary-color-1), var(--secondary-color-2));
-
+.secondary_btn {
+  background: linear-gradient(
+    45deg,
+    var(--secondary-color-1),
+    var(--secondary-color-2)
+  );
 }
-.outline_btn{
-    background-color: #fff;
-    border: 2px solid var(--tertiary-color);
-    color: #000;
+.outline_btn {
+  background-color: #fff;
+  border: 2px solid var(--tertiary-color);
+  color: #000;
 }
-.success_btn{
-    background: linear-gradient(45deg, var(--success-color-1), var(--success-color-2));
+.success_btn {
+  background: linear-gradient(
+    45deg,
+    var(--success-color-1),
+    var(--success-color-2)
+  );
 }
-.alert_btn{
-    background: linear-gradient(45deg, var(--alert-color-1), var(--alert-color-2));
+.alert_btn {
+  background: linear-gradient(
+    45deg,
+    var(--alert-color-1),
+    var(--alert-color-2)
+  );
 }
-.warning_btn{
-    background: linear-gradient(45deg, var(--warning-color-1), var(--warning-color-2));
+.warning_btn {
+  background: linear-gradient(
+    45deg,
+    var(--warning-color-1),
+    var(--warning-color-2)
+  );
 }
