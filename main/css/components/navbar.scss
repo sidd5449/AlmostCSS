@@ -1,10 +1,59 @@
-.navbar{
+.navbar-light {
+  font-family: "PT sana";
+  color: #000000;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    font-weight: 400;
+    padding: 0;
     display: flex;
     justify-content: space-between;
-    padding: 0 4vw;
+    gap: 32px;
     align-items: center;
-    background-color: #fff;
+
+    :hover {
+      cursor: pointer;
+    }
+  }
 }
-.nav_dark{
-    background-color: var(--nav-dark);
+
+.navbar-dark {
+  font-family: "PT sana";
+  color: #fff;
+  background-color: #222222;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    font-weight: 400;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+
+    :hover {
+      cursor: pointer;
+    }
+  }
 }
