@@ -26,3 +26,10 @@ a{
 .success_link{
     color: var(--success-color-1);
 }
+.no_underline{
+    border-bottom: 0px;
+    padding-bottom: 0;
+    &:hover{
+        border-bottom: 0;
+    }
+}
